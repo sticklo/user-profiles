@@ -1,0 +1,60 @@
+
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.App {
+  padding: 3.5rem 3rem;
+  background: #3a64b116;
+  display: grid;
+  row-gap: 2rem;
+}
+
+.card-wrap {
+  display: grid;
+  row-gap: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid grey;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+.btm-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.desc{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: .8rem;
+  line-height: 2rem;
+}
+
+.desc strong{
+  font-weight: 600;
+}
+.desc p{
+  font-weight: 300;
+}
+
+@media screen and (min-width: 767px) {
+  .App {
+    padding: 4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 5rem;
+  }
+}
